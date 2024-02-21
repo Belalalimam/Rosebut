@@ -1,0 +1,274 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+/* body{
+    height: 9000px;
+} */
+/* Start Fonts */
+/* .julee-regular {
+    font-family: "Julee", cursive;
+    font-weight: 400;
+    font-style: normal;
+  }
+  // <uniquifier>: Use a uniquifier for the class name
+  // <weight>: Use a value from 400 to 900
+
+.playfair-display-<uniquifier> {
+  font-family: "Playfair Display", serif;
+  font-optical-sizing: auto;
+  font-weight: <weight>;
+  font-style: normal;
+}
+// <uniquifier>: Use a uniquifier for the class name
+// <weight>: Use a value from 100 to 900
+
+.roboto-slab-<uniquifier> {
+  font-family: "Roboto Slab", serif;
+  font-optical-sizing: auto;
+  font-weight: <weight>;
+  font-style: normal;
+} */
+/* End Fonts */
+/* Start nav-section */
+.nav-section{
+    height: 1100px;
+    background-image: url("/img/img12.jpg");
+    /* border: 2px solid red; */
+}
+.navbar-nav .nav-item{
+    margin: 0px 20px;
+}
+.navbar-nav .nav-item .nav-link{
+    color: #fff;
+}
+.nav-section .paragraph{
+    height: 840px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 90px;
+}
+.nav-section .container{
+    height: 500px;
+    display: flex;
+    text-align: center;
+}
+.nav-section .paragraph .container .row{
+    color: #fff;
+    text-align: center;
+
+}
+.nav-section .paragraph .container .row h2{
+    font-family: "Julee", cursive;
+    font-style: italic;
+
+    font-size: 40px;
+    margin-bottom: 0;
+}
+.nav-section .paragraph .container .row h1{
+    font-family: "Roboto Slab", serif;
+    font-weight: 300;
+    font-size: 79px;
+    margin-top: 0;
+}
+.nav-section .paragraph .container .rows{
+    display: flex;
+    justify-content: center;
+    margin-top: 30px;
+}
+.nav-section .paragraph .container .rows .button{
+    margin:0px 20px;
+    border: 1px solid #fff;
+    padding: 10px 30px;  
+}
+.nav-section .paragraph .container .rows .button1{
+    background-color: rgb(255, 255, 255); 
+    color: #000;
+}
+.nav-section .paragraph .container .rows .button1 a{ 
+    color: #000;
+}
+.nav-section .paragraph .container .rows a{
+    text-decoration: none;
+    font-size: 13px;
+    color: #fff;
+}
+/* End nav-section */
+/* Start Section1 */
+.Section1{
+    height: 400px;
+    display: flex;
+    align-items: center;
+    /* border: 2px solid red; */
+}
+.Section1 .container .row{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.Section1 .container .row .card1{
+    margin-right: 130px;
+}
+.Section1 .container .row .card2{
+    margin-right: 130px;
+}
+.Section1 .container .row .card3{
+    margin-right: 0px;
+}
+.Section1 .container .row .cards{
+    height: 400px;
+    width: 300px;
+    text-align: center;
+    display:flex;
+    align-items: center;
+    font-family: "Playfair Display", serif;
+    /* border: 2px solid red; */
+}
+.Section1 .container .row .cards h2{
+    font-size: 20px;
+}
+/* End Section1 */
+/* Start Section2 */
+.Section2{
+    /* border: 2px solid red; */
+    height: 950px;
+    background-color: #fff0e9;
+    text-align: center;
+    display: flex;
+    align-items: center;
+}
+.Section2 .container .text h2{
+    font-family: "Julee", cursive ;
+    font-style: italic;
+
+    font-size: 45px;
+}
+.Section2 .container .text h1{
+    font-size: 55px;
+    font-weight: 300;
+    font-family:  "Roboto Slab", serif;
+}
+.Section2 .container .row .col-3{
+    font-family: "Roboto Slab", serif;
+}
+.Section2 .container .row .col-3 h3{
+    font-size: 20px;
+    font-weight: 200;
+}
+/* End Section2 */
+/* Start Section3 */
+.Section3{
+    height: 400px;
+    background-image: url("/img/img12.jpg");
+    display: flex;
+    align-items: center;
+}
+.Section3 .container .row .info{
+    font-family: "Roboto Slab", serif;
+    font-weight: 100;
+    color: #fff;
+    text-align: center;
+}
+/* End Section3 */
+/* Start Section4 */
+.Section4{
+    height: 700px;
+    /* border: 3px solid red; */
+    display: flex;
+    align-items: center;
+}
+.Section4 .container .row .right-side{
+    background-image: url("/img/img16.jpg");
+    background-size: 100%;
+    background-repeat: no-repeat;
+    /* border: 3px solid red; */
+    height: 386px;
+    /* display: flex; */
+    /* align-items: center; */
+    padding-top: 50px;   
+}
+.Section4 .container .row .right-side h2{
+   font-family: "Julee", cursive;
+   font-style: italic;
+    font-size: 40px;
+}
+.Section4 .container .row .right-side h1{
+   font-family:  "Roboto Slab", serif;
+   font-weight: 400;
+   font-size: 40px;
+   margin: 10px 0px;
+    
+}
+.Section4 .container .row .right-side .button3{
+    display: flex;
+    justify-content: center;
+    width: 135px;
+    padding: 12px;
+    border: 1px solid #000;
+    margin-top: 35px;
+}
+.Section4 .container .row .right-side .button3 a{
+    text-decoration: none;
+    color: #000;
+}
+/* End Section4 */
+/* Start Section6 */
+.Section6{
+    text-align: center;
+    display: flex;
+    align-items: center;
+    height: 950px;
+    background-color: #fff0e9;
+    font-family:  "Roboto Slab", serif;
+    font-weight: 400;
+    background-image: url("/img/img16\ -\ Copy.jpg");
+    background-size: contain;
+    /* border: 1px solid red; */
+}
+.Section6 .container .row .col-3 h3{
+    font-size: 20px;
+    font-family:  "Roboto Slab", serif;
+    font-weight: 200;
+    color: #000;
+}
+/* End Section6 */
+/* Start Section8 */
+.Section8{
+text-align: center;
+height: 250px;
+background-color: #fff0e9;
+font-family: "Roboto Slab", serif;
+font-weight: 300;
+display: flex;
+justify-content: center;
+align-items: center;
+/* border: 1px solid red; */
+}
+.Section8 .container form{
+    display: flex;
+    justify-content: center;
+    /* border: 1px solid red; */
+    padding: 10px;
+}
+.Section8 .container form .sendplace{
+    width: 600px;
+    padding: 13px;
+    border: none;
+}
+.Section8 .container form .button-sendplace{
+    padding: 16px 35px;
+    border: none;
+    background: #1b1b1b;
+    color: #fff;
+    font-size: 13px;
+}
+/* End Section8 */
+/* Start footer */
+/* End footer */
+
+
+
+
+
+
