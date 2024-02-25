@@ -97,7 +97,7 @@
 /* End nav-section */
 /* Start Section1 */
 .Section1{
-    height: 400px;
+    /* height: ; */
     display: flex;
     align-items: center;
     /* border: 2px solid red; */
@@ -114,7 +114,7 @@
     margin-right: 130px;
 }
 .Section1 .container .row .card3{
-    margin-right: 0px;
+    margin-right: 130px;
 }
 .Section1 .container .row .cards{
     height: 400px;
@@ -132,7 +132,7 @@
 /* Start Section2 */
 .Section2{
     /* border: 2px solid red; */
-    height: 950px;
+    /* height: 950px; */
     background-color: #fff0e9;
     text-align: center;
     display: flex;
