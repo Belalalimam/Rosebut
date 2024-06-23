@@ -102,30 +102,27 @@
     align-items: center;
     /* border: 2px solid red; */
 }
-.Section1 .container .row{
+.Section1 .container-fluid{
     display: flex;
     justify-content: center;
+}
+.Section1 .container-fluid .row{
+    display: flex;
+    justify-content: space-around;
+
     align-items: center;
 }
-.Section1 .container .row .card1{
-    margin-right: 130px;
-}
-.Section1 .container .row .card2{
-    margin-right: 130px;
-}
-.Section1 .container .row .card3{
-    margin-right: 130px;
-}
-.Section1 .container .row .cards{
+.Section1 .container-fluid .row .cards{
     height: 400px;
     width: 300px;
     text-align: center;
     display:flex;
     align-items: center;
+
     font-family: "Playfair Display", serif;
     /* border: 2px solid red; */
 }
-.Section1 .container .row .cards h2{
+.Section1 .container-fluid .row .cards h2{
     font-size: 20px;
 }
 /* End Section1 */
@@ -163,6 +160,11 @@
     background-image: url("/img/img12.jpg");
     display: flex;
     align-items: center;
+}
+.Section3 .container .row{
+    display: flex;
+    justify-content: space-between;
+    align-items: end;
 }
 .Section3 .container .row .info{
     font-family: "Roboto Slab", serif;
@@ -233,6 +235,11 @@
     color: #000;
 }
 /* End Section6 */
+/* Start Section7 */
+.Section7{
+    display: block;
+}
+/* End Section7 */
 /* Start Section8 */
 .Section8{
 text-align: center;
@@ -240,11 +247,9 @@ height: 250px;
 background-color: #fff0e9;
 font-family: "Roboto Slab", serif;
 font-weight: 300;
-display: flex;
-justify-content: center;
-align-items: center;
 /* border: 1px solid red; */
 }
+
 .Section8 .container form{
     display: flex;
     justify-content: center;
@@ -252,7 +257,6 @@ align-items: center;
     padding: 10px;
 }
 .Section8 .container form .sendplace{
-    width: 600px;
     padding: 13px;
     border: none;
 }
@@ -266,6 +270,50 @@ align-items: center;
 /* End Section8 */
 /* Start footer */
 /* End footer */
+
+
+
+/* responsive */
+
+@media (max-width: 785px)  {
+    .Section1{
+        display: flex;
+        justify-content: center;
+    }
+    .Section2 .container .row img{
+        width: 60%;
+    }
+    .Section4{
+        margin-top: 100px;
+       display: block;
+
+    }
+    .Section5{
+        display: none;
+    }
+    .Section6{
+        padding-top: 50px;
+       display: block;
+    }
+    .Section6 .container .row img{
+        width: 60%;
+    }
+    .Section7{
+       display: none;
+    }
+}
+
+@media(max-width: 992px) {
+    .Section4{
+        padding-top: 100px;
+    }
+}
+
+
+
+
+
+
 
 
 
