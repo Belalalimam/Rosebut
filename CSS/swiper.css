@@ -1,6 +1,8 @@
  .Section5 {
    position: relative;
    height: 100%;
+   display: flex;
+   justify-content: center;
  }
 
  .Section5 .container {
