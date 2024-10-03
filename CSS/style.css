@@ -1,7 +1,12 @@
-*{
+* {
     margin: 0;
     padding: 0;
 }
+
+.borderr {
+    border: 1px solid #000;
+}
+
 /* body{
     height: 9000px;
 } */
@@ -31,103 +36,121 @@
 } */
 /* End Fonts */
 /* Start nav-section */
-.nav-section{
+.nav-section {
     height: 1100px;
     background-image: url("/img/img12.jpg");
     /* border: 2px solid red; */
 }
-.navbar-nav .nav-item{
+
+.navbar-nav .nav-item {
     margin: 0px 20px;
 }
-.navbar-nav .nav-item .nav-link{
+
+.navbar-nav .nav-item .nav-link {
     color: #fff;
 }
-.nav-section .paragraph{
+
+.nav-section .paragraph {
     height: 840px;
     display: flex;
     justify-content: center;
     align-items: center;
     margin-top: 90px;
 }
-.nav-section .container{
+
+.nav-section .container {
     height: 500px;
     display: flex;
     text-align: center;
 }
-.nav-section .paragraph .container .row{
+
+.nav-section .paragraph .container .row {
     color: #fff;
     text-align: center;
 
 }
-.nav-section .paragraph .container .row h2{
+
+.nav-section .paragraph .container .row h2 {
     font-family: "Julee", cursive;
     font-style: italic;
 
     font-size: 40px;
     margin-bottom: 0;
 }
-.nav-section .paragraph .container .row h1{
+
+.nav-section .paragraph .container .row h1 {
     font-family: "Roboto Slab", serif;
     font-weight: 300;
     font-size: 79px;
     margin-top: 0;
 }
-.nav-section .paragraph .container .rows{
+
+.nav-section .paragraph .container .rows {
     display: flex;
     justify-content: center;
     margin-top: 30px;
 }
-.nav-section .paragraph .container .rows .button{
-    margin:0px 20px;
+
+.nav-section .paragraph .container .rows .button {
+    margin: 0px 20px;
     border: 1px solid #fff;
-    padding: 10px 30px;  
+    padding: 10px 30px;
 }
-.nav-section .paragraph .container .rows .button1{
-    background-color: rgb(255, 255, 255); 
+
+.nav-section .paragraph .container .rows .button1 {
+    background-color: rgb(255, 255, 255);
     color: #000;
 }
-.nav-section .paragraph .container .rows .button1 a{ 
+
+.nav-section .paragraph .container .rows .button1 a {
     color: #000;
 }
-.nav-section .paragraph .container .rows a{
+
+.nav-section .paragraph .container .rows a {
     text-decoration: none;
     font-size: 13px;
     color: #fff;
 }
+
 /* End nav-section */
 /* Start Section1 */
-.Section1{
+.Section1 {
     /* height: ; */
     display: flex;
     align-items: center;
     /* border: 2px solid red; */
 }
-.Section1 .container-fluid{
+
+.Section1 .container-fluid {
     display: flex;
     justify-content: center;
 }
-.Section1 .container-fluid .row{
+
+.Section1 .container-fluid .row {
     display: flex;
     justify-content: space-around;
 
     align-items: center;
 }
-.Section1 .container-fluid .row .cards{
+
+.Section1 .container-fluid .row .cards {
     height: 400px;
     width: 300px;
     text-align: center;
-    display:flex;
+    display: flex;
     align-items: center;
 
     font-family: "Playfair Display", serif;
     /* border: 2px solid red; */
 }
-.Section1 .container-fluid .row .cards h2{
+
+.Section1 .container-fluid .row .cards h2 {
     font-size: 20px;
 }
+
 /* End Section1 */
 /* Start Section2 */
-.Section2{
+.Section2 {
     /* border: 2px solid red; */
     /* height: 950px; */
     background-color: #fff0e9;
@@ -135,52 +158,61 @@
     display: flex;
     align-items: center;
 }
-.Section2 .container .text h2{
-    font-family: "Julee", cursive ;
+
+.Section2 .container .text h2 {
+    font-family: "Julee", cursive;
     font-style: italic;
 
     font-size: 45px;
 }
-.Section2 .container .text h1{
+
+.Section2 .container .text h1 {
     font-size: 55px;
     font-weight: 300;
-    font-family:  "Roboto Slab", serif;
-}
-.Section2 .container .row .col-3{
     font-family: "Roboto Slab", serif;
 }
-.Section2 .container .row .col-3 h3{
+
+.Section2 .container .row .col-3 {
+    font-family: "Roboto Slab", serif;
+}
+
+.Section2 .container .row .col-3 h3 {
     font-size: 20px;
     font-weight: 200;
 }
+
 /* End Section2 */
 /* Start Section3 */
-.Section3{
+.Section3 {
     height: 400px;
     background-image: url("/img/img12.jpg");
     display: flex;
     align-items: center;
 }
-.Section3 .container .row{
+
+.Section3 .container .row {
     display: flex;
     justify-content: space-between;
     align-items: end;
 }
-.Section3 .container .row .info{
+
+.Section3 .container .row .info {
     font-family: "Roboto Slab", serif;
     font-weight: 100;
     color: #fff;
     text-align: center;
 }
+
 /* End Section3 */
 /* Start Section4 */
-.Section4{
+.Section4 {
     height: 700px;
     /* border: 3px solid red; */
     display: flex;
     align-items: center;
 }
-.Section4 .container .row .right-side{
+
+.Section4 .container .row .right-side {
     background-image: url("/img/img16.jpg");
     background-size: 100%;
     background-repeat: no-repeat;
@@ -188,21 +220,24 @@
     height: 386px;
     /* display: flex; */
     /* align-items: center; */
-    padding-top: 50px;   
+    padding-top: 50px;
 }
-.Section4 .container .row .right-side h2{
-   font-family: "Julee", cursive;
-   font-style: italic;
+
+.Section4 .container .row .right-side h2 {
+    font-family: "Julee", cursive;
+    font-style: italic;
     font-size: 40px;
 }
-.Section4 .container .row .right-side h1{
-   font-family:  "Roboto Slab", serif;
-   font-weight: 400;
-   font-size: 40px;
-   margin: 10px 0px;
-    
+
+.Section4 .container .row .right-side h1 {
+    font-family: "Roboto Slab", serif;
+    font-weight: 400;
+    font-size: 40px;
+    margin: 10px 0px;
+
 }
-.Section4 .container .row .right-side .button3{
+
+.Section4 .container .row .right-side .button3 {
     display: flex;
     justify-content: center;
     width: 135px;
@@ -210,63 +245,77 @@
     border: 1px solid #000;
     margin-top: 35px;
 }
-.Section4 .container .row .right-side .button3 a{
+
+.Section4 .container .row .right-side .button3 a {
     text-decoration: none;
     color: #000;
 }
+
 /* End Section4 */
 /* Start Section6 */
-.Section6{
+.Section6 {
     text-align: center;
     display: flex;
     align-items: center;
     height: 950px;
     background-color: #fff0e9;
-    font-family:  "Roboto Slab", serif;
+    font-family: "Roboto Slab", serif;
     font-weight: 400;
     background-image: url("/img/img16\ -\ Copy.jpg");
     background-size: contain;
     /* border: 1px solid red; */
 }
-.Section6 .container .row .col-3 h3{
+
+.Section6 .container .row .col-3 h3 {
     font-size: 20px;
-    font-family:  "Roboto Slab", serif;
+    font-family: "Roboto Slab", serif;
     font-weight: 200;
     color: #000;
 }
+
 /* End Section6 */
 /* Start Section7 */
-.Section7{
-    display: block;
-}
-/* End Section7 */
-/* Start Section8 */
-.Section8{
-text-align: center;
-height: 250px;
-background-color: #fff0e9;
-font-family: "Roboto Slab", serif;
-font-weight: 300;
-/* border: 1px solid red; */
+.Section7 {
+    /* display: block; */
+    margin-top: 800px !important;
 }
 
-.Section8 .container form{
+/* End Section7 */
+/* Start Section8 */
+.Section8 {
+    text-align: center;
+    height: 250px;
+    background-color: #fff0e9;
+    font-family: "Roboto Slab", serif;
+    font-weight: 300;
+
+    display: flex !important;
+    align-items: center !important;
+    justify-content: center !important;
+}
+
+.Section8 .container {}
+
+.Section8 .container form {
     display: flex;
     justify-content: center;
     /* border: 1px solid red; */
     padding: 10px;
 }
-.Section8 .container form .sendplace{
+
+.Section8 .container form .sendplace {
     padding: 13px;
     border: none;
 }
-.Section8 .container form .button-sendplace{
+
+.Section8 .container form .button-sendplace {
     padding: 16px 35px;
     border: none;
     background: #1b1b1b;
     color: #fff;
     font-size: 13px;
 }
+
 /* End Section8 */
 /* Start footer */
 /* End footer */
@@ -275,48 +324,58 @@ font-weight: 300;
 
 /* responsive */
 
-@media (max-width: 785px)  {
-    .Section1{
+@media (max-width: 785px) {
+    .Section1 {
         display: flex;
         justify-content: center;
     }
-    .Section2 .container .row img{
+
+    .Section2 .container .row img {
         width: 60%;
     }
-    .Section4{
+    .Section2 .container .Section2H1 h1{
+        font-size: 40px;
+    }
+
+    .Section4 {
         margin-top: 100px;
-       display: block;
+        display: block;
 
     }
-    .Section5{
+
+    .Section5 {
         display: none;
     }
-    .Section6{
+
+    .Section6 {
         padding-top: 50px;
-       display: block;
+        /* display: block; */
+        height: auto;
     }
-    .Section6 .container .row img{
+
+    .Section6 .container .row img {
         width: 60%;
     }
-    .Section7{
-       display: none;
+
+    .Section7 {
+        /* display: none; */
+        height: auto;
     }
 }
 
 @media(max-width: 992px) {
-    .Section4{
+    .Section4 {
         padding-top: 100px;
     }
 }
-
-
-
-
-
-
-
-
-
-
-
-
+@media(max-width: 576px) {
+    .Section2 .container .Section2H1 h1{
+        font-size: 30px;
+    }
+    .cards{
+        margin-top: 30px !important;
+        padding-bottom: 20px !important;
+        padding-top:20px  !important;
+        height: auto !important;
+    }
+}
